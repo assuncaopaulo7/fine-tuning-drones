@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     # Train the model on the COCO8 example dataset for 100 epochs
     results = model.train(
-        data="/home/eduardo/Desktop/yolo/fine-tuning-drones/drone-classification-1/data.yaml", 
+        data="/home/eduardo/Desktop/yolo/fine-tuning-drones/UAVs-2/data.yaml", 
         epochs=200, 
         imgsz=640,
         device=0,
